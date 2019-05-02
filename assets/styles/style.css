@@ -5,7 +5,7 @@ html {
 
 body {
   background: url('../images/aditya-chinchure-494048-unsplash.jpg') no-repeat
-    center center fixed;
+  center center fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -17,18 +17,44 @@ button {
 }
 
 h1 {
-  color: red;
+  color: yellow;
 }
-
+/*
 #navbar {
-  background: transparent;
+ background: transparent;
 }
-#content {
-  display: block;
-  content: '';
-  clear: both;
-}
+*/
 
 .title {
   font-family: 'Monoton', cursive;
+}
+
+.navbar{
+
+  background-color:#2F4F4F !important;
+  
+
+}
+
+.footercard {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  border: orangered;
+  border-style: solid;
+  border-width: 5px;
+  color: white;
+}
+
+.container{
+  position: center;
+  width:70%;
+  margin: 100px;
+  border-color: red;
+  border-style: dashed;
+  border-width: 5px;
+  color: white;
 }
