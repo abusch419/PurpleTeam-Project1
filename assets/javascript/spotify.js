@@ -268,7 +268,11 @@ const renderShows = function(responseArray) {
     var str = artistInfo.datetime;
     var res = str.substring(0, 10);
     $("#shows").prepend(
+
       `<button class="btn-default btn-secondary show-button btn-outline-secondary btn-block btn" data-artist="${
+
+      `<button class="btn-default btn-secondary show-button btn-outline-secondary btn-block btn" data-artist="${
+
         artistInfo.lineup
       }"> <b>Date:</b> ${res}  <b>City:</b> ${
         artistInfo.venue.city
